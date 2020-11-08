@@ -1,0 +1,40 @@
+#page-container { font-family: 'Raleway', sans-serif; }
+
+#nav-container { border-radius:0;margin-bottom:0;background-color:#6c6c6c;border: none; }
+#nav-container .navbar-nav li a { background-color: transparent; color: #fefefe; text-transform: uppercase; letter-spacing: 1px; font-weight: 500; padding: 25px 0 2px 0; margin: 0px 15px; }
+#nav-container .navbar-nav .active a { border-bottom: 3px solid #fefefe; padding-bottom: 3px; }
+#nav-container .navbar-nav { padding-bottom: 20px; }
+#nav-logo { padding: 25px 0px; padding-left: 15px; color: #fefefe; text-transform: uppercase; letter-spacing: 1px; font-weight: 500; }
+
+.header-small { color: #fefefe; letter-spacing: 1px; font-size: 16px; font-weight: 500; }
+.splash { background-color:#0e0e0e; }
+.splash-container { max-width: 1400px; margin:auto; padding: 150px 0 150px 15px; }
+.splash-title { color:#fefefe; margin: 15px 0 20px 0; line-height: 1.2; }
+.splash-title-grey { color: #6c6c6c; }
+.splash-button { padding: 10px 40px; text-transform: uppercase; display: flex; align-items: center; margin-top: 10px; background-color: #6c6c6c; border: none; border-radius: 2px; }
+.splash-button-text { padding-right: 7.5px; color: #fefefe; font-weight: 500; }
+
+.triple-row { padding: 60px 0 20px 0; }
+.services-title, .blog-title, .contact-title { text-align: center; text-transform: uppercase; color: #4f4f4f; padding-top: 40px; }
+.services-text { font-size: 16px; text-align: center; color: #6c6c6c; padding: 0 30px; }
+.col-lg-4 { display:flex; flex-direction: column; align-items: center; }
+.col-lg-4 svg, .col-lg-4 h2 { color: #4f4f4f; }
+.col-lg-4 p { color: #6c6c6c; }
+.col-text { padding: 0 10px; text-align: center; }
+
+.blog-featured { padding: 30px 0; }
+.blog-title { max-width: 250px; padding-bottom: 20px; margin: 10px auto; border-bottom: 4px solid #6c6c6c; }
+.blog-headline { max-width: 400px; text-align: center; margin: 20px auto 40px; }
+.lead { font-size: 16px !important; }
+.featurette-heading { margin-top: 5px; }
+small { font-size: 14px !important; }
+
+.contact-us { background-color: #f4f4f4; padding-bottom: 40px; }
+.contact-title { padding-bottom: 10px; }
+.contact-us-container { max-width: 1200px; margin: auto; }
+.form-container { max-width: 700px; margin: auto; }
+
+.button-container { text-align: center; }
+.name-email { display: flex; }
+.form-group-name { width: 49%; margin-right:1%;  }
+.form-group-email { width: 49%; margin-left:1%; }
